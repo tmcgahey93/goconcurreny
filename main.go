@@ -14,7 +14,7 @@ func fetchURL(url string) string {
 }
 
 func main() {
-	rand.Seed(time.Now().UnixNano())
+	//rand.Seed(time.Now().UnixNano())
 
 	urls := []string{
 		"url1",
